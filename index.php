@@ -1,3 +1,10 @@
+<?php
+    include'./include/global.php';
+    $title = "controle de estoque";
+    include './templade/hearder.php';
+ ?>
 
-    </body>
-</html>
+
+<?php
+include './template/footer.php';
+?>
