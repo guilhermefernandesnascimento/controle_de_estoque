@@ -1,8 +1,15 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+*{
+ margin: 0;
+   padding: 0;
+   
+   
+center {
+     windth: 980px;
+     margin: 100px auto;
+     
+     
+input[type=text
+   width: 100%;
+   padding: 20px
+   border: 1px solis #ccc  /* ccc = cinza
+   background: #fff; /* fff = branco*/
