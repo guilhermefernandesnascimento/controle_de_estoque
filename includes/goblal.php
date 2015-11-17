@@ -1,7 +1,7 @@
 <?php
 session_start()
 
-function conexao () {
+function conexao (){
     $uper = "root";
     $passwd = "usbw";
     $dbname = "estoque";
