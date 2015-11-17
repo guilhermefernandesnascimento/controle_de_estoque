@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}  
+    
+   .center{
+        windth: 980px;
+        margin: 100px auto;
+    }
+        
+       .input[type="text"]{
+        padding:10px;
+        border: 1px solid #ccc;
+        background: #ccc;
+        margin-top: 10px;
+        
+       }
+        .input[type="submit"]:hover {
+            background: #fff;
+            color: #333;
+        }
