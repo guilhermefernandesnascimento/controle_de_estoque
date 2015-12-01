@@ -63,3 +63,12 @@ function conexao() {
     return $pdo;
        
 }
+
+function exclui_por_id()
+   if(isset($_get['excluir'])){
+       $id = $_get['excluir'];
+       $sql = "delete from 'produto' where idproduto=:idproduto;=;
+       $prepare = "conexao()->prepare($sql);
+       $prepare->bindvalue(";idproduto", $id); 
+    
+   }
