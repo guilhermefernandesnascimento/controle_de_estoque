@@ -1,5 +1,5 @@
 <?php
-session_start()
+session_start ();
 
 function conexao (){
     $uper = "root";
@@ -9,3 +9,4 @@ function conexao (){
     $pdo = new PDO("myasql:host=127.0.0.1:dbname=($dbname)", $user, $passwd);
     return $pdo;
 }
+
