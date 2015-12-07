@@ -50,7 +50,8 @@ function Listar(){
  
  
  
-Global.php:
+
+global.php 
 <?php
 session_start () ;
 
@@ -70,5 +71,11 @@ function exclui_por_id()
        $sql = "delete from 'produto' where idproduto=:idproduto;=;
        $prepare = "conexao()->prepare($sql);
        $prepare->bindvalue(";idproduto", $id); 
-    
+       $prepare-> execute ()==1){
+       if($prepare-> rowcount()==1){
+             echo 'sucesso!';
+       }else{
+             echo 'deu merda!';
+       }
+   }
    }
